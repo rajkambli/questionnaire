@@ -156,7 +156,7 @@ class HomeView extends GetView<HomeController> {
       ),
       child: InkWell(
         borderRadius: BorderRadius.circular(16),
-        onTap: () {
+        onTap: () async {
           if (isCompleted) {
             Get.snackbar(
               'Already Submitted',
@@ -169,10 +169,11 @@ class HomeView extends GetView<HomeController> {
             );
             return;
           }
-          Get.toNamed(
+          await Get.toNamed(
             AppRoutes.questionnaire,
             arguments: questionnaire,
           );
+          controller.questionnaires.refresh();
         },
         child: Padding(
           padding: const EdgeInsets.all(20),

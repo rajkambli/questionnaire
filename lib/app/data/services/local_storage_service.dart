@@ -31,7 +31,10 @@ class LocalStorageService {
   }
 
   static Future<void> clearUser() async {
-    await _userBox.delete(_userKey);
+    await _userBox.clear();
+    await _submissionBox.clear();
+    await _userBox.flush();
+    await _submissionBox.flush();
   }
 
   static Future<void> saveSubmission(SubmissionModel submission) async {

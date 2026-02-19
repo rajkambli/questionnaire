@@ -325,9 +325,13 @@ class ProfileView extends StatelessWidget {
               minimumSize: const Size(80, 40),
             ),
             onPressed: () async {
-              await GoogleSignIn().signOut();
-              await FirebaseAuth.instance.signOut();
               await LocalStorageService.clearUser();
+              try {
+                await GoogleSignIn().disconnect();
+              } catch (_) {}
+              try {
+                await FirebaseAuth.instance.signOut();
+              } catch (_) {}
               Get.offAllNamed(AppRoutes.login);
             },
             child: const Text('Logout'),

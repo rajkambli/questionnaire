@@ -1,0 +1,68 @@
+{
+  "project_info": {
+    "project_number": "576891204912",
+    "project_id": "loginfirebase-35ef7",
+    "storage_bucket": "loginfirebase-35ef7.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:576891204912:android:c3812034e68fa24e4244f5",
+        "android_client_info": {
+          "package_name": "com.example.questionnaire"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "576891204912-crkvl7pk7p0147co5fqh4f5n8npmejin.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAqNAaBdQ24hYmzbxQPqhZRRBCTEIxOvPQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "576891204912-crkvl7pk7p0147co5fqh4f5n8npmejin.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:576891204912:android:611f81c84b4acd844244f5",
+        "android_client_info": {
+          "package_name": "com.example.todologin"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "576891204912-crkvl7pk7p0147co5fqh4f5n8npmejin.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAqNAaBdQ24hYmzbxQPqhZRRBCTEIxOvPQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "576891204912-crkvl7pk7p0147co5fqh4f5n8npmejin.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
